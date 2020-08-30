@@ -5,6 +5,7 @@ using namespace std;
 void printMode(int a[], int n)
 {
     int max = *max_element(a, a + n);
+    cout<<"yea"<<endl;
 
     int t = max + 1;
     int count2[t];
